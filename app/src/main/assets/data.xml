@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE playersXmlDatabase [
+		<!ELEMENT playersXmlDatabase (player+)>
+		<!ELEMENT player (firstName, lastName, age, footballClub, nationality, preferredPosition, imageURL, flagURL, benched, teamNumber)>
+		<!ATTLIST player isActive CDATA #REQUIRED>
+		<!ELEMENT firstName (#PCDATA)>
+		<!ELEMENT lastName (#PCDATA)>
+		<!ELEMENT age (#PCDATA)>
+		<!ELEMENT footballClub (#PCDATA)>
+		<!ELEMENT nationality (#PCDATA)>
+		<!ELEMENT preferredPosition (#PCDATA)>
+		<!ELEMENT imageURL (#PCDATA)>
+		<!ELEMENT flagURL (#PCDATA)>
+		<!ELEMENT benched (#PCDATA)>
+		<!ELEMENT teamNumber (#PCDATA)>
+		]>
+
+<playersXmlDatabase>
+    <player isActive="yes">
+        <firstName>Alisson</firstName>
+        <lastName>Becker</lastName>
+        <age>30</age>
+        <footballClub>Liverpool FC</footballClub>
+        <nationality>Brasil</nationality>
+	    <preferredPosition>GK</preferredPosition>
+        <imageURL>https://i.imgur.com/6z80BXs.png</imageURL>
+        <flagURL>https://i.imgur.com/zTZDXc2.png</flagURL>
+        <benched>no</benched>
+	    <teamNumber>13</teamNumber>
+    </player>
+	<player isActive="yes">
+		<firstName>Virgil</firstName>
+		<lastName>Van Dijk (C)</lastName>
+		<age>26</age>
+		<footballClub>Liverpool FC</footballClub>
+		<nationality>Netherlands</nationality>
+		<preferredPosition>CB</preferredPosition>
+		<imageURL>https://i.imgur.com/20XGWcN.png</imageURL>
+		<flagURL>https://i.imgur.com/LMk5jJf.png</flagURL>
+		<benched>no</benched>
+		<teamNumber>4</teamNumber>
+	</player>
+	<player isActive="yes">
+		<firstName>Joe</firstName>
+		<lastName>Gomez</lastName>
+		<age>19</age>
+		<footballClub>Liverpool FC</footballClub>
+		<nationality>England</nationality>
+		<preferredPosition>CB</preferredPosition>
+		<imageURL>https://i.imgur.com/3AKo2YI.png</imageURL>
+		<flagURL>https://i.imgur.com/kC0sQOY.png</flagURL>
+		<benched>no</benched>
+		<teamNumber>12</teamNumber>
+	</player>
+	<player isActive="yes">
+		<firstName>Andy</firstName>
+		<lastName>Robertson</lastName>
+		<age>26</age>
+		<footballClub>Liverpool FC</footballClub>
+		<nationality>Scotland</nationality>
+		<preferredPosition>LB</preferredPosition>
+		<imageURL>https://i.imgur.com/UjF2sMQ.png</imageURL>
+		<flagURL>https://i.imgur.com/lnT1a98.png</flagURL>
+		<benched>no</benched>
+		<teamNumber>26</teamNumber>
+	</player>
+	<player isActive="yes">
+		<firstName>Trent</firstName>
+		<lastName>Alexander-Arnold</lastName>
+		<age>18</age>
+		<footballClub>Liverpool FC</footballClub>
+		<nationality>England</nationality>
+		<preferredPosition>RB</preferredPosition>
+		<imageURL>https://i.imgur.com/C9zrlFy.png</imageURL>
+		<flagURL>https://i.imgur.com/kC0sQOY.png</flagURL>
+		<benched>no</benched>
+		<teamNumber>66</teamNumber>
+	</player>
+	<player isActive="yes">
+		<firstName>Gini</firstName>
+		<lastName>Wijnaldum</lastName>
+		<age>26</age>
+		<footballClub>Liverpool FC</footballClub>
+		<nationality>Netherlands</nationality>
+		<preferredPosition>CMF</preferredPosition>
+		<imageURL>https://i.imgur.com/rwRDBRO.png</imageURL>
+		<flagURL>https://i.imgur.com/LMk5jJf.png</flagURL>
+		<benched>no</benched>
+		<teamNumber>5</teamNumber>
+	</player>
+	<player isActive="yes">
+		<firstName>Fabio</firstName>
+		<lastName>Henrique Tavares</lastName>
+		<age>28</age>
+		<footballClub>Liverpool FC</footballClub>
+		<nationality>Brasil</nationality>
+		<preferredPosition>DMF</preferredPosition>
+		<imageURL>https://i.imgur.com/IoqBiq1.png</imageURL>
+		<flagURL>https://i.imgur.com/zTZDXc2.png</flagURL>
+		<benched>no</benched>
+		<teamNumber>3</teamNumber>
+	</player>
+	<player isActive="yes">
+		<firstName>Xherdan</firstName>
+		<lastName>Shaquiri</lastName>
+		<age>27</age>
+		<footballClub>Liverpool FC</footballClub>
+		<nationality>Switzerland</nationality>
+		<preferredPosition>AMF</preferredPosition>
+		<imageURL>https://i.imgur.com/oV6V7Wl.png</imageURL>
+		<flagURL>https://i.imgur.com/aSeZ5P3.png</flagURL>
+		<benched>no</benched>
+		<teamNumber>23</teamNumber>
+	</player>
+	<player isActive="yes">
+		<firstName>Sadio</firstName>
+		<lastName>Mane</lastName>
+		<age>26</age>
+		<footballClub>Liverpool FC</footballClub>
+		<nationality>Senegal</nationality>
+		<preferredPosition>WINGER</preferredPosition>
+		<imageURL>https://i.imgur.com/xdWddUh.png</imageURL>
+		<flagURL>https://i.imgur.com/9QfPJrH.png</flagURL>
+		<benched>no</benched>
+		<teamNumber>10</teamNumber>
+	</player>
+	<player isActive="yes">
+		<firstName>Roberto</firstName>
+		<lastName>Firmino</lastName>
+		<age>27</age>
+		<footballClub>Liverpool FC</footballClub>
+		<nationality>Brasil</nationality>
+		<preferredPosition>STRIKER</preferredPosition>
+		<imageURL>https://i.imgur.com/b5pKIPm.png</imageURL>
+		<flagURL>https://i.imgur.com/zTZDXc2.png</flagURL>
+		<benched>no</benched>
+		<teamNumber>9</teamNumber>
+	</player>
+	<player isActive="yes">
+		<firstName>Mohammed</firstName>
+		<lastName>Salah</lastName>
+		<age>27</age>
+		<footballClub>Liverpool FC</footballClub>
+		<nationality>Egypt</nationality>
+		<preferredPosition>STRIKER</preferredPosition>
+		<imageURL>https://i.imgur.com/YlKDw8w.png</imageURL>
+		<flagURL>https://i.imgur.com/wpGIPSA.png</flagURL>
+		<benched>no</benched>
+		<teamNumber>11</teamNumber>
+	</player>
+	<player isActive="yes">
+		<firstName>Simon</firstName>
+		<lastName>Mignolet</lastName>
+		<age>30</age>
+		<footballClub>Liverpool FC</footballClub>
+		<nationality>Belgium</nationality>
+		<preferredPosition>GK</preferredPosition>
+		<imageURL>https://i.imgur.com/Ku8cRCg.png</imageURL>
+		<flagURL>https://i.imgur.com/w3ZYkmI.png</flagURL>
+		<benched>yes</benched>
+		<teamNumber>1</teamNumber>
+	</player>
+	<player isActive="yes">
+		<firstName>Dejan</firstName>
+		<lastName>Lovren</lastName>
+		<age>28</age>
+		<footballClub>Liverpool FC</footballClub>
+		<nationality>Croatia</nationality>
+		<preferredPosition>CB</preferredPosition>
+		<imageURL>https://i.imgur.com/yy7rfZe.png</imageURL>
+		<flagURL>https://i.imgur.com/NjfzWWn.png</flagURL>
+		<benched>yes</benched>
+		<teamNumber>6</teamNumber>
+	</player>
+	<player isActive="yes">
+		<firstName>Alberto</firstName>
+		<lastName>Moreno</lastName>
+		<age>25</age>
+		<footballClub>Liverpool FC</footballClub>
+		<nationality>Spain</nationality>
+		<preferredPosition>LB</preferredPosition>
+		<imageURL>https://i.imgur.com/pSezTlz.png</imageURL>
+		<flagURL>https://i.imgur.com/vdmil0x.png</flagURL>
+		<benched>yes</benched>
+		<teamNumber>18</teamNumber>
+	</player>
+	<player isActive="yes">
+		<firstName>James</firstName>
+		<lastName>Milner</lastName>
+		<age>33</age>
+		<footballClub>Liverpool FC</footballClub>
+		<nationality>England</nationality>
+		<preferredPosition>CMF</preferredPosition>
+		<imageURL>https://i.imgur.com/zSHQwr5.png</imageURL>
+		<flagURL>https://i.imgur.com/kC0sQOY.png</flagURL>
+		<benched>yes</benched>
+		<teamNumber>7</teamNumber>
+	</player>
+	<player isActive="yes">
+		<firstName>Jordan</firstName>
+		<lastName>Henderson</lastName>
+		<age>28</age>
+		<footballClub>Liverpool FC</footballClub>
+		<nationality>England</nationality>
+		<preferredPosition>CMF</preferredPosition>
+		<imageURL>https://i.imgur.com/dhN2x4Z.png</imageURL>
+		<flagURL>https://i.imgur.com/kC0sQOY.png</flagURL>
+		<benched>yes</benched>
+		<teamNumber>14</teamNumber>
+	</player>
+	<player isActive="yes">
+		<firstName>Divock</firstName>
+		<lastName>Origi</lastName>
+		<age>23</age>
+		<footballClub>Liverpool FC</footballClub>
+		<nationality>Belgium</nationality>
+		<preferredPosition>STRIKER</preferredPosition>
+		<imageURL>https://i.imgur.com/pEZ5DXW.png</imageURL>
+		<flagURL>https://i.imgur.com/w3ZYkmI.png</flagURL>
+		<benched>yes</benched>
+		<teamNumber>27</teamNumber>
+	</player>
+    <player isActive="yes">
+        <firstName>Daniel</firstName>
+        <lastName>Sturridge</lastName>
+        <age>29</age>
+        <footballClub>Liverpool FC</footballClub>
+        <nationality>England</nationality>
+	    <preferredPosition>STRIKER</preferredPosition>
+        <imageURL>https://i.imgur.com/QavZq55.png</imageURL>
+        <flagURL>https://i.imgur.com/kC0sQOY.png</flagURL>
+	    <benched>yes</benched>
+	    <teamNumber>15</teamNumber>
+    </player>
+
+</playersXmlDatabase>
